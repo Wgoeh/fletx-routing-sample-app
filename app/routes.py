@@ -61,7 +61,7 @@ routes = [
         ],
         'meta':{
             'transition': RouteTransition(
-                transition_type = TransitionType.FADE,
+                transition_type = TransitionType.SLIDE_RIGHT,
                 duration = 350
             )
         }

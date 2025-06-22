@@ -3,7 +3,7 @@ name = "routing_app"
 version = "0.1.0"
 description = "None"
 readme = "README.md"
-authors = [{ name = "pro2015", email = "" }]
+authors = [{ name = "Klein015", email = "" }]
 requires-python = ">=3.12"
 dependencies = [
     "fletxr==0.1.4.dev1",

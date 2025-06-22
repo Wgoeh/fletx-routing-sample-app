@@ -4,7 +4,7 @@ None
 
 ## About
 
-This is a FletX application built with FletX a GetX-like tiny framework for Python and Flet. FletX provides state management, dependency injection, and routing capabilities similar to GetX in Flutter.
+This is a [FletX](https://github.com/AllDotPy/FletX) application built with FletX a GetX-like tiny framework for Python and Flet. FletX provides state management, dependency injection, and routing capabilities similar to GetX in Flutter.
 
 ## Features
 
@@ -79,58 +79,19 @@ fletx run --host 0.0.0.0 --port 8080
 # Create a new controller
 fletx generate controller UserController
 
-# Create a new view
-fletx generate view UserView
+# Create a new Page (Screen)
+fletx generate page UserView
 
 # Create a new service
 fletx generate service ApiService
 
-# Create a new page
-fletx generate page ProfilePage
+# Create a new Widget (Component)
+fletx generate component TaskItem
 ```
-
-### Running Tests
-
-```bash
-# Run all tests
-pytest
-
-# Run with coverage
-pytest --cov=app
-
-# Run specific test file
-pytest tests/test_controllers.py
-```
-
-### Code Formatting
-
-```bash
-# Format code with black
-black .
-
-# Check code style with flake8
-flake8 app/
-
-# Type checking with mypy
-mypy app/
-```
-
----
-
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests for new functionality
-5. Run the test suite
-6. Submit a pull request
-
 
 ## Author
 
-pro2015
+Klein015
 
 ## Version
 
