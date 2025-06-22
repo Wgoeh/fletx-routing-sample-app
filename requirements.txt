@@ -1,6 +1,6 @@
 # Core dependencies
 flet>=0.21.0
-fletxr>=0.1.3
+fletxr>=0.1.4.dev1
 
 # Development dependencies
 pytest>=7.0.0
