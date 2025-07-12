@@ -1,6 +1,6 @@
 # RoutingApp
 
-None
+None - Not on windows (Or use WSL)
 
 ## About
 
